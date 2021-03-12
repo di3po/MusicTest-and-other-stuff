@@ -4,7 +4,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.*;
 
-public class SimpleGui1 implements ActionListener{
+/*public class SimpleGui1 implements ActionListener{
 
 	JButton button;
 	
@@ -17,7 +17,7 @@ public class SimpleGui1 implements ActionListener{
 		JFrame frame = new JFrame();
 		button = new JButton("Click me");
 		
-		button.addActionListener(this);
+		//button.addActionListener(this);
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	    frame.getContentPane().add(button);
@@ -28,4 +28,4 @@ public class SimpleGui1 implements ActionListener{
 	public void actionPerformed(ActionEvent event) {
 		button.setText("I've been clicked, OMG!");
 	}
-}
+}*/
