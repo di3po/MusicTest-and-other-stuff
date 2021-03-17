@@ -20,6 +20,9 @@ public class TestJPanelElements1 extends JPanel{
 	public void go() {
 		JFrame frame = new JFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		//BorderLayout layout = new BorderLayout();
+		//JPanel background = new JPanel(layout);
+		//background.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
 		
 		JCheckBox cbox = new JCheckBox("Show where to click");
 		cbox.addItemListener(new cbox1());
